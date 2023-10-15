@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.box {
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.container  {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: #15263f;
+}
+.box2   {
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1  {
+   text-align: center;
+}
+.inp1 {
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.fp {
+    color: rgb(0, 89, 255);
+    font-size: 15px;
+    text-align: center; 
+    margin-bottom: 5px;
+}
+.button1 {
+    background-color: rgba(75, 75, 209, 0.897);
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    border: 0;
+    color: white;
+
+}
+.su {
+    color: rgb(16, 87, 168);;
+}
+.dhasu  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line {
+    display: flex;
+    align-items: center;
+}
+.line1 , .line2 {
+    width: 200px;
+    height: 0px;
+    border: 1px solid black;
+}
+.Or {
+    padding: 0 7px 0 7px;
+}
+.box3   {
+    display: flex;
+    flex-direction: column;
+}
+.button2 {
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    border: 1px solid black;
+    color: rgb(83, 83, 83);
+}
+
+.fb-button {
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: rgb(104, 104, 226);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-button {
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: rgb(229, 229, 231);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
